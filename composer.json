@@ -1,8 +1,8 @@
 {
-    "name": "laravel/laravel",
+    "name": "beaubus/messenger",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "Simple CRUD Laravel and Vue app with Laravel Breeze authentication. It allows new users to register and create/update/delete messages.",
+    "keywords": ["laravel", "vue", "CRUD", "Laravel Breeze"],
     "license": "MIT",
     "require": {
         "php": "^8.1",
