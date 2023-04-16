@@ -38,6 +38,10 @@
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
         ],
+        "post-install-cmd": [
+            "@php artisan vendor:publish --tag=beaubus-favicons --force",
+            "php artisan beaubus:install-favicon 'Speech bubble'"
+        ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
         ],
