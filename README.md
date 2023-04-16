@@ -7,9 +7,10 @@ It allows new users to register and create/update/delete messages.
 1. Rename .env.example to .env and fill all DB_ parameters
 2. Run `composer install`
 3. Run `npm install && npm run build`
-4. Run `php artisan key:generate && php artisan storage:link`
-5. Run `php artisan migrate`
-6. Run `php artisan serve`
+4. Run `cp .env.example .env` and configure database connection 
+5. Run `php artisan key:generate && php artisan storage:link`
+6. Run `php artisan migrate`
+7. Run `php artisan serve`
 
 ## Main steps to recreate the project from scratch
 
