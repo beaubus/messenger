@@ -2,6 +2,8 @@
 Simple CRUD Laravel and Vue app with Laravel Breeze authentication.
 It allows new users to register and create/update/delete messages.
 
+![](demo.gif)
+
 ## Installation
 
 1. Rename .env.example to .env and fill all DB_ parameters
@@ -45,3 +47,5 @@ Vue({
 12. Implement Message component to display message
 13. Implement Messages component to display list of the messages
 14. Add styling to the components
+
+> beaubus/favicons-for-laravel (https://packagist.org/packages/beaubus/favicons-for-laravel) used to display favicon and logo
